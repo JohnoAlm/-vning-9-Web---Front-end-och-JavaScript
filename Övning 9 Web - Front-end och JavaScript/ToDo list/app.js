@@ -137,7 +137,7 @@ const addUndoButton = function(){
 
         const color = randomColor(1, 10);
 
-        myBodyId.setAttribute("class", "bg-" + color);
+        myBodyId.setAttribute("class", "bg-" + color + " d-flex flex-column min-vh-100");
     });
 
     
